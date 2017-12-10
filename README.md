@@ -70,6 +70,7 @@ filesystem_id="fs-d617b81f"
 mkdir ~/venv; cd $_
 git clone https://github.com/diesant/aws_efs_custom_metric
 virtualenv -p /usr/bin/python2.7 aws_efs_custom_metric; cd $_
+source bin/activate
 pip install -r requirements.txt
 sed -i "s:eu-west-1:${region}:g; s:fs-d617b81f:${filesystem_id}:g" config.yaml
 lambda deploy
