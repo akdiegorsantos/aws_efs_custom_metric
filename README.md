@@ -2,7 +2,7 @@
 
 ## What is it?
 
-This lambda function can be used to create a custom CloudWatch metric named SizeInBytes to help you tracking the metered size of EFS file systems.
+This lambda function can be used to create a CloudWatch custom metric named SizeInBytes to help you tracking the metered size of EFS file systems.
 
 ## Prerequisites
 
